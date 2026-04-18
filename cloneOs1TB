@@ -38,7 +38,7 @@ sleep 4
 # Disk partitioning (as an example, using fixed sizes)
 #diskutil splitPartition ${destination}s2 JHFS+ NewVolume1 40.1g JHFS+ NewVolume2 49.87g JHFS+ NewVolume3 21.87g HFS+ NewVolume4 29.87g HFS+ NewVolume5 38.87g HFS+ NewVolume6 38.87g
 
-diskutil splitPartition ${destination}s2 JHFS+ NewVolume1 43.1g JHFS+ NewVolume2 49.87g JHFS+ NewVolume3 10.87g JHFS+ NewVolume4 20.5g JHFS+ NewVolume5 20.5g JHFS+ NewVolume6 20.5g JHFS+ NewVolume7 285.5g
+diskutil splitPartition ${destination}s2 JHFS+ NewVolume1 43.1g JHFS+ NewVolume2 49.87g JHFS+ NewVolume3 10.87g JHFS+ NewVolume4 20.5g JHFS+ NewVolume5 20.5g JHFS+ NewVolume6 41.5g JHFS+ NewVolume7 285.5g
 
 #diskutil splitPartition ${destination}s2 JHFS+ NewVolume1 40.1g JHFS+ NewVolume2 49.87g JHFS+ NewVolume3 21.87g HFS+ NewVolume4 29.87g HFS+ NewVolume5 38.87g HFS+ NewVolume6 38.87g HFS+ NewVolume7 16g HFS+ NewVolume8 1.21g
 # diskutil splitPartition ${destination}s2 JHFS+ NewVolume1 45g JHFS+ NewVolume2 22g JHFS+ NewVolume3 45g HFS+ NewVolume4 45g HFS+ NewVolume5 53g 
